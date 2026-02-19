@@ -633,6 +633,17 @@ p {
   font-weight: 500;
 }
 
+.footer-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color var(--transition-base);
+}
+
+.footer-link:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
 /* Platform-Specific Colors - Setup */
 .social-link.setup:hover {
   background-color: rgba(138, 43, 226, 0.1);
