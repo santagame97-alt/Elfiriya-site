@@ -51,7 +51,7 @@ html {
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-  background: linear-gradient(-45deg, #0e0e10, #1a0e2e, #2d1b4e, #1a0e2e);
+  background: linear-gradient(-45deg, #0a1628, #1a2f4f, #2563eb, #1e40af, #0a1628);
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
   color: var(--text-primary);
@@ -87,9 +87,9 @@ body::before {
   width: 100%;
   height: 100%;
   background-image: 
-    radial-gradient(circle at 20% 50%, rgba(145, 70, 255, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(255, 105, 180, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 40% 20%, rgba(145, 70, 255, 0.05) 0%, transparent 50%);
+    radial-gradient(circle at 20% 50%, rgba(37, 99, 235, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 40% 20%, rgba(96, 165, 250, 0.1) 0%, transparent 50%);
   pointer-events: none;
   z-index: 0;
 }
